@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Countdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="birthday-card">
+            <h1 class="title">Happy Birthday!</h1>
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+            <div class="message">
+                <p>Until your next birthday!</p>
+            </div>
+            
+            <!-- New Age Countdown Section -->
+            <div class="age-countdown-section">
+                <button id="startAgeCountdown" class="start-button">Start Age Countdown</button>
+                <div id="ageCountdown" class="age-countdown">
+                    <span id="ageNumber">24</span>
+                </div>
+                <div id="birthdayMessage" class="birthday-message hidden">
+                    <h2>Happy Birthday!</h2>
+                    <div class="hacker-text">HACKER</div>
+                    <div class="greatest-hacker">The Greatest Hacker of All Time</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Fireworks Container -->
+    <div id="fireworks" class="fireworks-container"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
